@@ -1,0 +1,88 @@
+/*----------------------------------
+*  00 公共样式
+*  01 首页样式
+*  02 答题页面样式
+*  03 海报页面样式
+*====================================*/
+
+
+/*----------------------------------
+*  00 公共样式
+*====================================*/
+html{
+	width: 100%;
+	min-height: 100vh;
+	font-size: 12px;
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+}
+img{
+	display: block;
+}
+.border-L{
+	border-right:1px solid #fff;	
+}
+div{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.Active{
+	display: block!important;
+}
+/*----------------------------------
+*  01 导航
+*====================================*/
+#tabs{
+	width:100vw;
+	height: 80px;
+	padding: 20px;
+	line-height: 20px;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	z-index: 99999;
+	color: #FFFFFF;
+	text-align: center;
+}
+a.tabList{
+	width: 8%;
+	height: 100%;
+	float: left;
+	color: #FFFFFF;
+}
+a.tabList:hover{
+	color: #2DA0DC;
+}
+
+/*----------------------------------
+*  02 首页
+*====================================*/
+#demo01{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.page{
+	width: 100%;
+	transition: all 0.8s; 
+}
+.page img{
+	width: 100%;
+	height: 100vh;
+}
+.pageImg04{
+	width: 100%;
+	height: 100vh!important;
+}
+.pageImg07{
+	width: 100%;
+	height: 80vh!important;	
+}
+.pageImg08{
+	width: 100%;
+	height: 20vh!important;	
+}
+
+
